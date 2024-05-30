@@ -1,12 +1,11 @@
 import './App.css';
-import { renderQuestionSubmission } from './components/QuestionSubmission';
-import QuestionSubmission from './components/QuestionSubmission';
+import { RenderQuestionSubmission } from './components/QuestionSubmission';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Jay's Birthday Scavenger Hunt</h1>
-        {renderQuestionSubmission()}
+        {/* <h1>Jay's Birthday Scavenger Hunt</h1> */}
+        {RenderQuestionSubmission()}
         {/* <QuestionSubmission /> */}
         {/* {renderQuestionSubmission()} */}
       </header>
